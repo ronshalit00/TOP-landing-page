@@ -1,3 +1,4 @@
+/* Reset to user-agent stylings */
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +10,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Header styling */
 header {
     display: flex;
     justify-content: space-between;
@@ -38,6 +40,8 @@ a {
 header a {
     color: #E5E7EB;
 }
+
+/* Hero section styling */
 .hero {
     padding: 60px 16%;
     display: flex;
@@ -79,9 +83,11 @@ h1 {
     border: none;
     margin-top: 17px;
 }
+
+/* Cards section styling */
 .info {
     text-align: center;
-    margin: 10px 0 20px 0;
+    margin: 20px 0 30px 0;
     font-weight: 900;
     font-size: 36px;
     color: #1F2937;
@@ -107,6 +113,8 @@ h1 {
     color: #1F2937;
     font-size: 14px;
 }
+
+/* Testimonial section styling */
 .testimonial {
     background-color: #E5E7EB;
     margin-top: 30px;
@@ -130,6 +138,7 @@ h1 {
     font-weight: 700;
 }
 
+/* Bottom CTA section styling */
 .cta-section {
     display: flex;
     justify-content: center;
@@ -156,4 +165,21 @@ h1 {
 }
 .cta-left-side {
     color: #F9FAF8;
+}
+
+/* Footer styling */
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    color: #F9FAF8;
+}
+.footer a {
+    color: #E5E7EB;
+    font-weight: 700;
+}
+.footer a:hover {
+    color: #3882F6;
 }
